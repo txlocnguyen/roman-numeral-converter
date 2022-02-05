@@ -1,6 +1,6 @@
 function convertToRoman(num) {
-    if (!Number.isInteger(num)) {
-        return 0;
+    if (!Number.isInteger(num) || num < 1) {
+        return undefined;
     }
     const roman = {
         M: 1000,
@@ -25,3 +25,4 @@ function convertToRoman(num) {
     })
     return result;
 }
+console.log(convertToRoman(2.5))
