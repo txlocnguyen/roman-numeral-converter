@@ -1,2 +1,2 @@
 # roman-numeral-converter
-Convert a given number into a roman numeral. Built with JavaScript.
+Convert a positive integer number into roman numerals. Built with JavaScript.

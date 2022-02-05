@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roman Numeral Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+    </style>
 </head>
+
 <body>
-    
+    <form>
+        <h1>Roman Numeral Converter</h1>
+        <p>Roman numerals are the letters used by the ancient Romans to represent numbers, for example I, IV, VIII, and
+            XL, which represent 1, 4, 8, and 40. Roman numerals are still sometimes used today.</p>
+        <label for="input">Please enter your positive integer number in the field below and press 'Submit' to convert it
+            into roman numerals </label><br>
+        <input type="number" id="input" name="input" required>
+        <input type="submit" id="submit">
+        <p id="result"></p>
+    </form>
+    <script src="script.js"></script>
 </body>
+
 </html>
